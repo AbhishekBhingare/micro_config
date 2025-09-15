@@ -1,6 +1,6 @@
 spring:
   application:
-    name: questions-generater
+    name: questions-generater-service
   data:
     mongodb:
       uri: mongodb://localhost:27017/questiondb
@@ -19,3 +19,4 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
+
