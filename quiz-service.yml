@@ -5,7 +5,7 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/quizdb
 server:
-  port: 9092
+  port: 9098
 
 eureka:
   client:
@@ -16,5 +16,6 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
+
 
 
